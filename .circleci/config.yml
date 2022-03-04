@@ -11,6 +11,10 @@ jobs:
     steps:
       - node/install
       - checkout
+      - node/install-yarn:
+          version: 1.22.4
+      - run: node --version
+      - run: yarn
       # install dependencies in both apps
       - run:
           name: Front-End Install
