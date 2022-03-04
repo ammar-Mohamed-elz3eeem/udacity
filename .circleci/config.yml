@@ -14,6 +14,8 @@ jobs:
       - checkout
       - node/install-yarn:
           version: 1.22.4
+      - aws-cli/setup:
+          profile-name: default
       - run: node --version
       - run: yarn
       # install dependencies in both apps
