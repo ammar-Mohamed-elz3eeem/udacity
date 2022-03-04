@@ -16,9 +16,3 @@ jobs:
           name: hello
           command: |
             echo "hello-world"
-          name: server
-          command: |
-            cd ./reactnd-contacts-server/ && npm install
-          name: client
-          command: |
-            cd ./reactnd-contacts-complete/ && npm install
