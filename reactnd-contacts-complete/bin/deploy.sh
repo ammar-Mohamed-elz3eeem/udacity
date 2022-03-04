@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./build s3://ammar-massoud-ud/
+aws s3 cp --recursive --acl public-read ./build s3://ammar-massoud-ud-mero-thez/
