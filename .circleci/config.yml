@@ -32,3 +32,7 @@ jobs:
           name: Back-End Build
           command: |
             npm run backend:build
+      - run:
+          name: Deploy to AWS s3
+          command: |
+            npm run frontend:deploy
